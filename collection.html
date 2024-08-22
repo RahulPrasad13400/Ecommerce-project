@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>UrbanWares</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <h1>UrbanWares</h1>
+        </div>
+        <div class="nav-right">
+            <h3><a href="index.html" >Home</a></h3>
+            <h3><a href="collection.html">Collections</a></h3>
+            <h3><a href="contact.html">Contact Us</a></h3>
+        </div>
+        <div class="menu-toggle">
+            <i onclick="shownav()" class="fa-solid fa-bars"></i>
+        </div>
+        
+    </nav>
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i onclick="hidenav()" class="fa-solid fa-x"></i>
+        </p>
+        <div class="side-navbar-links">
+            <h3 class="side-navbar-links"><a href="index.html">Home</a></h3>
+            <h3 class="side-navbar-links"><a href="collection.html">Collections</a></h3>
+            <h3 class="side-navbar-links"><a href="contact.html">Contact Us</a></h3>
+        </div>
+    </div>
+    <section>
+        <div class="product-section">
+            <form class="product-search">
+                <input placeholder="Search" type="text" id="search">
+                <i id="icon" class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <div class="products" id="product">
+                <div class="product-box">
+                    <img style="width: 250px; height: 250px;" src="mancity.webp" alt="">
+                    <h4>Man City</h4>
+                </div>
+                <div class="product-box">
+                    <img style="width: 250px; height: 250px;" src="jersey.jpg" alt="">
+                    <h4>Man United</h4>
+                </div>
+                <div class="product-box">
+                    <img style="width: 250px; height: 250px;" src="ajax.jpg" alt="">
+                    <h4>Ajax</h4>
+                </div>
+                <div class="product-box">
+                    <img style="width: 250px; height: 250px;" src="arsenal.avif" alt="">
+                    <h4>Arsenal</h4>
+                </div>
+          
+                <div class="product-box">
+                    <img style="width: 250px; height: 250px;" src="barcelona.jpg" alt="">
+                    <h4>Barcelona</h4>
+                </div>
+                <div class="product-box">
+                    <img style="width: 250px; height: 250px;" src="bayern.webp" alt="">
+                    <h4>Bayern Munich</h4>
+                </div>
+                <div class="product-box">
+                    <img style="width: 250px; height: 250px;" src="milan.webp" alt="">
+                    <h4>A C Milan</h4>
+                </div>
+                <div class="product-box">
+                    <img style="width: 250px; height: 250px;" src="neverloosan.jpeg" alt="">
+                    <h4>Dortmund</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <footer>
+        <div>
+            <h3>UrbanWares</h>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi odio quia provident adipisci asperiores laborum voluptatem perferendis, illo aliquam sapiente.</h5>
+        </div>
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div>
+            <h4>@2024 UrbanWares.com</h4>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="collection.js"></script>
+</body>
+</html>
